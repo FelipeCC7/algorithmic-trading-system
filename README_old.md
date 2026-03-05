@@ -211,7 +211,7 @@ algorithmic-trading-system/
 
 This repository contains architectural patterns and design decisions from a production trading system. Actual trading logic, strategies, and sensitive configuration have been removed or modified for security reasons.
 
-**Note**: Full implementation details are proprietary. For serious inquiries about the complete system architecture or collaboration opportunities, please connect via [LinkedIn](https://www.linkedin.com/in/felipe-costa).
+**Note**: Full implementation details are proprietary. For serious inquiries about the complete system architecture or collaboration opportunities, please connect via [LinkedIn](https://www.linkedin.com/in/felipecdcosta).
 
 ## 🤝 Connect
 

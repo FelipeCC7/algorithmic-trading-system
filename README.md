@@ -305,7 +305,7 @@ Interested in discussing:
 - Risk management approaches
 - The journey from manual to algorithmic
 
-Connect via [LinkedIn](https://www.linkedin.com/in/felipe-costa) for technical discussions.
+Connect via [LinkedIn](https://www.linkedin.com/in/felipecdcosta) for technical discussions.
 
 ---
 

@@ -1,6 +1,6 @@
 """
 Risk Management System
-Core component that prevented catastrophic losses after the initial $1M experience
+Core component that prevented catastrophic losses after the initial $200K experience
 """
 
 import numpy as np
@@ -71,7 +71,7 @@ class RiskMetrics:
 class RiskManagementSystem:
     """
     Advanced risk management system
-    Implements the lessons learned from the $1M loss experience
+    Implements the lessons learned from the $200K loss experience
     """
 
     def __init__(self,
@@ -105,7 +105,7 @@ class RiskManagementSystem:
         """
         Calculate optimal position size using Kelly Criterion with safety factor
 
-        This is the key lesson from the $1M loss:
+        This is the key lesson from the $200K loss:
         NEVER risk more than you can afford to lose
         """
         # Calculate risk per unit
@@ -144,7 +144,7 @@ class RiskManagementSystem:
                               correlation_matrix: pd.DataFrame) -> bool:
         """
         Check if adding new position would exceed correlation limits
-        Prevents concentration risk that contributed to the $1M loss
+        Prevents concentration risk that contributed to the $200K loss
         """
         if not self.positions:
             return True
@@ -177,7 +177,7 @@ class RiskManagementSystem:
     def calculate_max_drawdown(self) -> float:
         """
         Calculate maximum drawdown from peak
-        Key metric that would have prevented the $1M loss
+        Key metric that would have prevented the $200K loss
         """
         if not self.historical_returns:
             return 0
@@ -191,7 +191,7 @@ class RiskManagementSystem:
     def emergency_stop_check(self) -> Tuple[bool, str]:
         """
         Circuit breaker - stops all trading if critical thresholds hit
-        This would have saved the $1M
+        This would have saved the $200K
         """
         # Check daily loss limit (3% hard stop)
         daily_loss = (self.initial_capital - self.current_capital) / self.initial_capital
@@ -378,7 +378,7 @@ class RiskManagementSystem:
 def demonstrate_risk_management():
     """
     Demonstrate the risk management system in action
-    Shows how it would have prevented the $1M loss
+    Shows how it would have prevented the $200K loss
     """
     print("=" * 70)
     print("RISK MANAGEMENT SYSTEM DEMONSTRATION")
@@ -443,7 +443,7 @@ def demonstrate_risk_management():
     for alert in metrics.alerts:
         print(alert)
 
-    print("\n5️⃣ THE $1M LESSON")
+    print("\n5️⃣ THE $200K LESSON")
     print("-" * 70)
     print("Without risk management:")
     print("  ❌ No position sizing → Overleveraged")
